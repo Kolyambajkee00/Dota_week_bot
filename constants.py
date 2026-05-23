@@ -1,5 +1,4 @@
-# constants.py
-# Словарь hero_id → (название_героя, имя_для_URL)
+
 
 HEROES_DATA = {
     1: ("Anti-Mage", "antimage"),

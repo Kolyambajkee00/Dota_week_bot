@@ -72,6 +72,6 @@ def format_records_message(steam_id: str, current_kda: float):
     message += f"Установлен: {records['last_updated'][:10]}"
 
     if current_kda > records['best_kda']:
-        message += f"\n\n🎉 **НОВЫЙ РЕКОРД KDA: {current_kda:.2f} (было {records['best_kda']:.2f})"
+        message += f"\n\n НОВЫЙ РЕКОРД KDA: {current_kda:.2f} (было {records['best_kda']:.2f})"
 
     return message
